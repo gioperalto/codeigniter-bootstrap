@@ -9,13 +9,13 @@
 
     <title>CodeIgniter Bootstrap</title>
 
-		<!-- CSS Calls -->
-    <link href="<?php echo 'assets/css/plugins/bootstrap.min.css'; ?>" rel="stylesheet">
-    <link href="<?php echo 'assets/css/plugins/font-awesome/css/font-awesome.min.css'; ?>" rel="stylesheet">
+    <!-- CSS Calls -->
+    <link href="<?php echo $this->config->base_url('assets'); ?>/css/plugins/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $this->config->base_url('assets'); ?>/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- JS Calls (Don't want to chance certain scripts not loading) -->
-		<script src="<?php echo 'assets/js/plugins/jquery.min.js'; ?>"></script>
-  	<script src="<?php echo 'assets/js/plugins/bootstrap.min.js'; ?>"></script>
+    <script src="<?php echo $this->config->base_url('assets'); ?>/js/plugins/jquery.min.js"></script>
+    <script src="<?php echo $this->config->base_url('assets'); ?>/js/plugins/bootstrap.min.js"></script>
   </head>
 	<body>
 	<!-- TODO: Add body content -->
